@@ -11,6 +11,26 @@ html {
     font-size: 62.5%;
 }
 
+header {
+    margin: 10%;
+    padding: 18px 100px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFFF;
+}
+
+section {
+    margin: 10%;
+}
+
+
+
+h1, h2, h4, h5, h6{
+    margin-bottom: 20px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -29,19 +49,98 @@ nav li a {
     margin-right: 8px;
 }
 
-
-header {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 18px 100px;
+nav li a:hover {
+    background-color: #707070;
 }
 
 .logo {
-    width: 40px;
-    height: 5vh;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.logo img{
+    width: 20px;
+    height: 22px;
 }
 
 .flex-container {
     display: flex;
+}
+
+.justify-between {
     justify-content: space-between;
 }
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    justify-items: center;
+}
+
+.justify-wrap {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.search-box {
+    border: #000000 solid 1px;
+    margin-bottom: 5px;
+}
+
+.search-box img {
+    width: 20px;
+    height: 2vh;
+}
+
+.border-bottom {
+    border-bottom: #000000 solid 4px;
+}
+
+.border-bottom-half {
+    border-bottom: #000000 solid 4px;
+    width: 50%;
+}
+
+.product-card {
+    width: 250px;
+    height: 400px;
+}
+
+.product-card img {
+    width: 250px;
+    height: 250px;
+}
+
+.price-font-size {
+    font-size: 15px;
+}
+
+
+#left-of-about{
+    width: 50%
+}
+
+#left-of-about img {
+    width: 100%;
+}
+
+#right-of-about {
+    width: 33%;
+}
+
+#about p {
+    padding: 5px;
+}
+
+ #home {
+    margin: 0;
+ }
+
+ .center-align {
+    align-items: center;
+ }
